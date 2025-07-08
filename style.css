@@ -1,0 +1,19 @@
+:root {
+    --font-family: "Courier New", Courier, monospace;
+}
+
+body {
+    font-family: var(--font-family);
+}
+
+.submit {
+    background-color: lightgreen;
+    border-radius: 5px;
+    border: none;
+    padding: 0.3rem 1rem;
+    font-family: var(--font-family);
+}
+
+.submit:hover {
+    background-color: forestgreen;
+}
